@@ -1,0 +1,16 @@
+{
+        "entries": [
+                {
+                        "date": "02/27/2019",
+                        "concept": "JavaScript Objects",
+                        "text": "We discussed and went over javaScript OBJECTS and ARRAYS. We covered string interpolation, targeting key values via dot notation and square bracket notation.",
+                        "mood": "Great"
+                },
+                {
+                        "date": "03/7/2019",
+                        "concept": "Grunt Task Manager",
+                        "text": "The class was introduced to the GRUNT task manager. Initially, it was a bit complicated, however, after a great instructions, it was all so simple.",
+                        "mood": "Great"
+                }
+        ]
+}

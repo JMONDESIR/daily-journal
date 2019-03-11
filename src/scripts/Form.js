@@ -11,7 +11,6 @@ const split = document.createElement("br")
 const dateField = document.createElement("fieldset")
 const dateLabel = document.createElement("label")
 dateLabel.innerHTML = "Date of Entry"
-
 const dateInput = document.createElement("input")
 dateInput.setAttribute("id", "journalDate")
 dateInput.setAttribute("type", "date")
@@ -20,7 +19,6 @@ dateInput.setAttribute("type", "date")
 const conceptField = document.createElement("fieldset")
 const conceptLabel = document.createElement("label")
 conceptLabel.innerHTML = "Concept"
-
 const conceptInput = document.createElement("input")
 conceptInput.setAttribute("id", "journalConcept")
 
@@ -29,7 +27,6 @@ const textField = document.createElement("fieldset")
 textField.setAttribute("id", "textField")
 const textLabel = document.createElement("label")
 textLabel.innerHTML = "Journal Entry"
-
 const textInput = document.createElement("textarea")
 textInput.setAttribute("id", "journalText")
 
@@ -38,7 +35,6 @@ const moodArr = ["great", "good", "ok", "doubtful"]
 const moodField = document.createElement("fieldset")
 const moodLabel = document.createElement("label")
 moodLabel.innerHTML = "Mood for the day"
-
 const moodInput = document.createElement("select")
 moodArr.forEach(mood => {
         const moodSelect = document.createElement("option")

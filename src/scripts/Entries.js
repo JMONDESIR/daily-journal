@@ -5,21 +5,15 @@ container.appendChild(entryWrapper)
 Data.allEntries()
         .then(journalEntry => {
                 journalEntry.forEach((entry) => {
-                        const date = document.createElement("p")
-                        const concept = document.createElement("h2")
-                        const textEntry = document.createElement("p")
-                        const mood = document.createElement("h4")
-                        const spacer = document.createElement("br")
-
-                        concept.textContent = entry.concept
-                        date.textContent = entry.date
-                        textEntry.textContent = entry.text
-                        mood.textContent = `Today, I felt ${entry.mood}.`
-
-                        entryWrapper.appendChild(date)
-                        entryWrapper.appendChild(concept)
-                        entryWrapper.appendChild(textEntry)
-                        entryWrapper.appendChild(mood)
-                        entryWrapper.appendChild(spacer)
+                        const entryCard = `
+                        <div class = "entry">
+                        <p>${entry.date}</p>
+                        <h2>${entry.concept}</h2>
+                        </br>
+                        <p>${entry.text}</p>
+                        </br>
+                        <h4>Today, I felt ${entry.mood}.</h4>
+                        `
+                        entryWrapper.innerHTML += entryCard
                 })
         })

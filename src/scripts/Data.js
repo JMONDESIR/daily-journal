@@ -6,10 +6,11 @@ const Data = {
         addNewEntry(newJournalEntry) {
                 return fetch("http://localhost:8088/entries", {
                         method: "POST",
+                        body: JSON.stringify(newJournalEntry),
                         headers: {
                                 "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify(newJournalEntry)
+                        }
                 })
+                        .then(entries => entries.json())
         }
 }

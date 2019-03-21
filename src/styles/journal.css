@@ -1,50 +1,54 @@
-* {
+/** {
         margin: 0;
         padding: 0;
         font-family: arial;
 }
 
 body {
-        background-color: #a5a5a5;
+        background-color: #606064;
 }
 
 header {
+        top: 0;
         color: #ffffff;
         -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
         box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-        background-color: #444444;
+        background-color: #484852;
         width: 100%;
-        height: 50px;
+        height: 7vh;
         padding: 10px 10px;
-        margin-bottom: 10px;
+        position: fixed;
 }
 
-#container {
-        margin: 5px 10px;
-        padding: 10px auto;
+#menuContainer {
+        background-color: #606064;
+        border: none;
+        margin: 5% 5px;
+        padding: 3vh 0 2px 1vw;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        z-index: -1;
+}
+#entryContainer {
+        width: 60vw;
+        background-color: #606064;
+        margin: 5px 5px 0px 30%;
+        padding: 2px 0 2px 1vw;
 }
 
 fieldset {
-        -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-        background-color: #444444;
+        background-color: #606064;
         color: white;
-        width: 28vw;
-        height: 9vh;
-        margin-top: 8px;
+        width: 30vw;
+        height: 10vh;
+        margin-bottom: 8px;
         padding: 5px 0px 5px 5px;
         border: none;
         border-radius: 4px;
         display: flex;
         flex-direction: column;
-}
-
-#textField {
-        height: 18vh;
 }
 
 input {
@@ -55,12 +59,20 @@ input {
         height: 4vh;
 }
 
+select {
+        margin: 5px 0px 5px 10px;
+        border: none;
+        border-radius: 4px;
+        width: 80px;
+        height: 30px;
+}
+
 textarea {
         margin: 5px 0px 5px 10px;
         border: none;
         border-radius: 4px;
         width: 25vw;
-        height: 12vh;
+        height: 4vh;
         resize: none;
 }
 
@@ -69,16 +81,21 @@ button {
         -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
         box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
         margin-top: 8px;
+        margin-right: 8px;
         width: 80px;
         height: 40px;
         border-radius: 4px;
         border: none;
         color: white;
-        background-color: #444444;
+        background-color: #478dbb;
 }
 
-.entry {
-        background-color: #444444;
+#deleteButton {
+        background-color: rgb(177, 60, 60);
+}
+
+#entryCard {
+        background-color: #484852;
         margin-bottom: 10px;
         padding: 5px 8px;
         color: white;
@@ -87,18 +104,5 @@ button {
         -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
         box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
         border-radius: 4px;
-}
-
-#formWrapper {
-        margin: 2vw 1vh;
-        padding: 2vh 2vw;
-}
-
-#entryWrapper {
-        background-color: #a5a5a5;
-        width: 60vw;
-        margin: 2vw 1vh;
-        padding: 2vh 2vw;
-        display: flex;
-        flex-direction: column;
-}
+        border-color:red;
+}*/

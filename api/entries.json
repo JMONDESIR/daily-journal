@@ -13,6 +13,55 @@
       "text": "The class was introduced to the GRUNT task manager. Initially, it was a bit complicated, however, after a great instructions, it was all so simple.",
       "mood": "Great",
       "id": 2
+    },
+    {
+      "date": "2019-03-11",
+      "concept": "Workflow Configuration",
+      "text": "We're discussing modular workflow of projects. This (to me) is the meat and potatoes of development thus far.",
+      "mood": "great",
+      "id": 3
+    },
+    {
+      "date": "2019-03-15",
+      "concept": "Group Project",
+      "text": "This was an eye-opening challenge, but I enjoyed it.",
+      "mood": "great",
+      "id": 4
+    },
+    {
+      "date": "2019-03-20",
+      "concept": "Array Methods",
+      "text": "Soaked up a great bit of knowledge over the last few days.  The class went over array methods.  Understanding the uses of each will greatly improve my skills as a developer.",
+      "mood": "great",
+      "id": 5
+    },
+    {
+      "date": "2019-03-21",
+      "concept": "The Callback Function",
+      "text": "Made the most sense today. ",
+      "mood": "great",
+      "id": 6
+    },
+    {
+      "date": "2019-03-21",
+      "concept": "Call the VA",
+      "text": "",
+      "mood": "great",
+      "id": 7
+    },
+    {
+      "date": "2019-03-21",
+      "concept": "Call the VA",
+      "text": "",
+      "mood": "great",
+      "id": 8
+    },
+    {
+      "date": "2019-03-21",
+      "concept": "Call the VA",
+      "text": "",
+      "mood": "great",
+      "id": 9
     }
   ]
 }

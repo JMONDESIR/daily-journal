@@ -50,7 +50,7 @@ const hr = document.createElement("hr")
 const radioField = document.createElement("fieldset")
 const radioLegend = document.createElement("legend")
 radioLegend.textContent = "Filter Entries by Mood"
-                //         <legend>Filter Entries by Mood</legend>
+
 const greatInput = document.createElement("input")
 greatInput.type = "radio"
 const greatLabel = document.createElement("label")
@@ -62,17 +62,6 @@ goodInput.type = "radio"
 const goodLabel = document.createElement("label")
 goodLabel.textContent = "good"
 radioField.appendChild(goodLabel)
-
-
-                //                 <input type="radio">
-                //                         <label>good</label>
-                //                 </input>
-                //                 <input type="radio">
-                //                         <label>ok</label>
-                //                 </input>
-                //                 <input type="radio">
-                //                         <label>doubtful</label>
-                //                 </input>
 
 // APPEND ELEMENTS
 form.appendChild(dateField)
@@ -90,6 +79,12 @@ textField.appendChild(textInput)
 form.appendChild(moodField)
 moodField.appendChild(moodLabel)
 moodField.appendChild(moodInput)
+
+const recordButton = document.createElement("button")
+recordButton.textContent = "RECORD"
+formWrapper.appendChild(recordButton)
+
+recordButton.addEventListener("click", saveEntry)
 
 form.appendChild(hr)
 

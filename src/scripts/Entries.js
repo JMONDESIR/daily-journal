@@ -3,11 +3,12 @@ const showAllEntries = {
                 Data.allEntries()
                         .then(journalEntry => {
                                 journalEntry.forEach((entry) => {
-                                        console.log("entry")
+                                        console.log("entries")
                                         const entryContainer = document.querySelector("#entryContainer")
 
                                         const entryCard = document.createElement("div")
-                                        entryCard.id = "entryCard"
+                                        entryCard.classList = "entryCard"
+                                        entryCard.id = `entryCard--${entry.id}`
 
                                         const entryDate = document.createElement("p")
                                         entryDate.textContent = entry.date
@@ -16,9 +17,6 @@ const showAllEntries = {
                                         const entryConcept = document.createElement("h2")
                                         entryConcept.textContent = entry.concept
                                         entryCard.appendChild(entryConcept)
-
-                                        const spacer = document.createElement("br")
-                                        entryCard.appendChild(spacer)
 
                                         const entryText = document.createElement("p")
                                         entryText.textContent = entry.text
@@ -32,9 +30,9 @@ const showAllEntries = {
                                         editButton.id = "editButton"
                                         editButton.textContent = "EDIT"
                                         entryCard.appendChild(editButton)
+                                        editButton.addEventListener("click", editEntry)
 
                                         const deleteButton = document.createElement("button")
-                                        deleteButton.id = entry.id
                                         deleteButton.textContent = "DELETE"
                                         entryCard.appendChild(deleteButton)
                                         deleteButton.addEventListener("click", deleteEntry)

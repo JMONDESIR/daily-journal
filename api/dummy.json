@@ -1,0 +1,53 @@
+{
+        "entries": [
+          {
+            "date": "02/27/2019",
+            "concept": "JavaScript Objects",
+            "text": "We discussed and went over javaScript OBJECTS and ARRAYS. We covered string interpolation, targeting key values via dot notation and square bracket notation.",
+            "mood": "Great",
+            "id": 1
+          },
+          {
+            "date": "03/7/2019",
+            "concept": "Grunt Task Manager",
+            "text": "The class was introduced to the GRUNT task manager. Initially, it was a bit complicated, however, after a great instructions, it was all so simple.",
+            "mood": "Great",
+            "id": 2
+          },
+          {
+            "date": "2019-03-11",
+            "concept": "Workflow Configuration",
+            "text": "We're discussing modular workflow of projects. This (to me) is the meat and potatoes of development thus far.",
+            "mood": "great",
+            "id": 3
+          },
+          {
+            "date": "2019-03-15",
+            "concept": "Group Project",
+            "text": "This was an eye-opening challenge, but I enjoyed it.",
+            "mood": "great",
+            "id": 4
+          },
+          {
+            "date": "2019-03-20",
+            "concept": "Array Methods",
+            "text": "Soaked up a great bit of knowledge over the last few days.  The class went over array methods.  Understanding the uses of each will greatly improve my skills as a developer.",
+            "mood": "great",
+            "id": 5
+          },
+          {
+            "date": "2019-03-21",
+            "concept": "The Callback Function",
+            "text": "Made the most sense today. ",
+            "mood": "great",
+            "id": 6
+          },
+          {
+            "date": "2019-03-22",
+            "concept": "At The coffee house",
+            "text": "Helping my good friend ALI",
+            "mood": "great",
+            "id": 7
+          }
+        ]
+      }
